@@ -12,11 +12,6 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "22.03.4"
-            pkgarch: aarch64_generic
-            target: rockchip
-            subtarget: armv8
-            vermagic: "2b42d929ca1fdb8932a0cfddd0b706b8"
           - tag: "23.05.0"
             pkgarch: aarch64_generic
             target: rockchip
